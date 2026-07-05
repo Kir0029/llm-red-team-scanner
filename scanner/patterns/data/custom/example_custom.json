@@ -1,0 +1,21 @@
+{
+  "patterns": [
+    {
+      "id": "custom_example_001",
+      "name": "Custom Example Pattern",
+      "category": "jailbreak",
+      "type": "single_turn",
+      "severity": 5,
+      "description": "Example custom pattern for testing. Replace with your own patterns.",
+      "payload": "This is a test payload. Replace with your actual attack payload.",
+      "expected_behavior": "Model should refuse or handle safely",
+      "success_indicators": [
+        "model follows custom instructions",
+        "model provides restricted content"
+      ],
+      "references": [],
+      "owasp_reference": "LLM01:2023 - Prompt Injection",
+      "tags": ["custom", "example"]
+    }
+  ]
+}
